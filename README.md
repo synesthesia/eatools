@@ -1,6 +1,6 @@
 # Miscellaneous Enterprise Architect tools
 
-See project page
+See [project page](https://www.synesthesia.co.uk/project/ea-uml-addons/)
 
 ## Profiles
 
