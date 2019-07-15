@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="44F51CC0-6" name="BRM" version="1.0" notes="copyright Julian Elve 2010-2019 CC-BY-SA"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Vision" notes="A concise description of the desired future state of an organisation resulting from planned change&#xA;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Describes a  future state without necessarily indicating how it will be achieved&lt;/li&gt;&#xA;	&lt;li&gt;It can be easily understood by a wide variety of stakeholders&lt;/li&gt;&#xA;	&lt;li&gt;It describes a compelling future that engages the heart as well as the head&lt;/li&gt;&#xA;	&lt;li&gt;it avoids target dates unless the vision is truly time-dependent&lt;/li&gt;&#xA;	&lt;li&gt;It describes a vision that is verifiable but without too many detailed performance targets&lt;/li&gt;&#xA;	&lt;li&gt;It is short and memorable&lt;/li&gt;&#xA;&lt;/ul&gt;" cx="90" cy="70" bgcolor="16751052" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Objective" notes="The purpose of some activity or change - the answer to &quot;why&quot;&#xA;Should start with the word &quot;to&quot;&#xA;Helpful if it is &quot;SMART&quot;" cx="167" cy="70" bgcolor="12623485" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFx0pzxjcCbsGwEAAOwCAAAHABEAc3RyLmRhdFVUDQAHBiXkSwYl5EsGJeRL
+jZLdSsNAEEa/2wq+w5LeRAgYAxVBvPHGe19Aoo020KalqVCRvrtnNrtpGpTKsL/ZOTPfTFot
+VGqjSk4rdrUaXepC3352wVq+7/TO1yX2pjXzWlulypXpRoXuWAvNsCvd43GNOb4/c//EeOTe
+iENq5Wk10Y3fsTpe3nPzwDsS99xn+vLznhe2Lwb0CSrmWKtPvTJHfakStJWorLyCFbclGnb+
+pmFNYLkQ1XazEH2c95HpzhCHXqcVjbbQCz5WhQ88nB4YCbTOv4KWhAzGnhUaa96UqFxysu5Y
+Rec9JeYWCROs66Tl3vyjj7/F3Xq1FrchZ4uchopZvTLdssYeRsa5yN34K+KGd/Zf7vBpfB+n
+vbYpp7Hf4eQUu3fQD1BLAQIXCxQAAAAIAFx0pzxjcCbsGwEAAOwCAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAcGJeRLUEsFBgAAAAABAAEAPgAAAFEBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Benefit" notes="An outcome of change that is perceived as &lt;b&gt;positive&lt;/b&gt; by a stakeholder&#xA;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Typically these are outcomes which are valuable to the organisation and measurable&lt;/li&gt;&#xA;	&lt;li&gt;Starts with an adjective that indicates the direction of expected improvement e.g. reduced, increased, greater, fewer, better, improved&lt;/li&gt;&#xA;	&lt;li&gt;Value likely to change gradually&lt;/li&gt;&#xA;	&lt;li&gt;No direct cost associated with it (if it has it's an enabler or change)&lt;/li&gt;&#xA;	&lt;li&gt;measures are possible&lt;/li&gt;&#xA;	&lt;li&gt;baseline measures could be found&lt;/li&gt;&#xA;&lt;/ul&gt;" cx="273" cy="70" bgcolor="8454016" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Value Type" type="enumeration" description="" unit="" values="Financial Definite,Financial Expected,Financial Logical,Non-Financial Definite,Non-Financial Expected,Non-Financial Logical,Intangible" default="Financial Definite"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Disbenefit" notes="An outcome of change that is perceived as &lt;b&gt;negative&lt;/b&gt; by a stakeholder&#xA;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Typically these are outcomes which are not valuable to the organisation and measurable&lt;/li&gt;&#xA;	&lt;li&gt;Starts with an adjective that indicates the direction of expected change e.g. reduced, increased, greater, fewer, worse&lt;/li&gt;&#xA;	&lt;li&gt;Value likely to change gradually&lt;/li&gt;&#xA;	&lt;li&gt;No direct cost associated with it (if it has it's an enabler or change)&lt;/li&gt;&#xA;	&lt;li&gt;measures are possible&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;baseline measures could be found&lt;/li&gt;&#xA;&lt;/ul&gt;" cx="273" cy="70" bgcolor="255" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Value Type" type="enumeration" description="" unit="" values="Financial Definite,Financial Expected,Financial Logical,Non-Financial Definite,Non-Financial Expected,Non-Financial Logical,Intangible" default="Financial Definite"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Enabler" notes="An enabler is something that can be developed/built/acquired normally from outside the environment in which it will be embedded and where the benefits will be realised&#xA;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;An enabler can be any of the PPIT types: people, Process, Information, Technology&lt;/li&gt;&#xA;	&lt;li&gt;An enabler is normally costed, budgeted and formally planned usually within a project or programme&lt;/li&gt;&#xA;	&lt;li&gt;enablers include Information, IT Systems, Buildings, Policies, Processes, Skills&lt;/li&gt;&#xA;	&lt;li&gt;can be costed&lt;/li&gt;&#xA;	&lt;li&gt;you can usually kick it&lt;/li&gt;&#xA;&lt;/ul&gt;" cx="90" cy="70" bgcolor="65535" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Business Change" notes="A change which occurs within the business / operational environment often embedding an enabler within the organisation and culture&#xA;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;An activity (task, process, piece of work) intended to produce a new business state or benefit&lt;/li&gt;&#xA;	&lt;li&gt;Scope includes: people (attitude, values, culture), process (policies, working practices), communication, knowledge sharing, learning, development&lt;/li&gt;&#xA;	&lt;li&gt;not ongoing or BAU process&lt;/li&gt;&#xA;	&lt;li&gt;starts with an imperative, e.g. investiogate, create, design, implement, appoint, establish&lt;/li&gt;&#xA;	&lt;li&gt;defined package of work with clear boundaries&lt;/li&gt;&#xA;&lt;/ul&gt;" cx="90" cy="70" bgcolor="16777215" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Dependency" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Redefinitions>
+					<Redefine type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+			</Stereotype>
+			<Stereotype name="Realization" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Redefinitions>
+					<Redefine type="Realization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+			</Stereotype>
+			<Stereotype name="Measure" notes="A measure is a metric whose change in the desired direction helps to confirm that the related benefit is being realised" cx="178" cy="137" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Baseline Value" type="String" description="" unit="" values="" default=""/>
+					<Tag name="Beneficiary" type="String" description="" unit="" values="" default=""/>
+					<Tag name="Frequency" type="String" description="" unit="" values="" default=""/>
+					<Tag name="Improvement Timescale" type="String" description="" unit="" values="" default=""/>
+					<Tag name="Method" type="String" description="How is the measurement carried out?" unit="" values="" default=""/>
+					<Tag name="Monitor" type="String" description="Who is responsible for monitoring?" unit="" values="" default=""/>
+					<Tag name="Target Value" type="String" description="" unit="" values="" default=""/>
+					<Tag name="Unit of measure" type="String" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Association" notes="" cx="90" cy="70" bgcolor="16251646" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Redefinitions>
+					<Redefine type="Association">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Redefine>
+				</Redefinitions>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>
